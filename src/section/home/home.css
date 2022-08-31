@@ -1,0 +1,18 @@
+#home {
+  width: 100vw;
+  height: 100vh;
+}
+
+.imgHome {
+  position: absolute;
+}
+
+.title {
+ /*  text-align: center; */
+  color: #00f7ff;
+  text-align:center;
+  font-size: 30px;
+  text-shadow:
+  5px 5px 10px  rgb(255, 255, 255);
+
+}
