@@ -1,18 +1,76 @@
-#home {
-  width: 100vw;
-  height: 100vh;
-}
+
 
 .imgHome {
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .title {
  /*  text-align: center; */
-  color: #00f7ff;
+  color:grey;
   text-align:center;
-  font-size: 30px;
+  font-size: 50px;
   text-shadow:
   5px 5px 10px  rgb(255, 255, 255);
 
+}
+
+.logos{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.instagram{
+  display: flex;
+  align-items: center;
+  
+}
+
+.insta{
+  font-size: 8vw;
+}
+
+.Gmail{
+  display: flex;
+  align-items: center;
+}
+
+.arroba{
+  color:grey;
+  font-size: 5vw;
+  padding-left: 0.5rem;
+}
+
+.gmail {
+  color:grey;
+  font-size: 5vw;
+  padding-left: 0.5rem;
+}
+.icongmail{
+  font-size: 8vw;
+}
+
+.foto {
+  height: 250px;
+  border-radius: 50%;
+}
+
+@media (max-width:550px){
+  .title {
+    /*  text-align: center; */
+     color:grey;
+     text-align:center;
+     font-size: 2.25rem;
+     text-shadow:
+     5px 5px 10px  rgb(255, 255, 255);
+   
+   }
+  .foto {
+    height: 45vw;
+  }
+  
 }

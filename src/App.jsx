@@ -7,7 +7,7 @@ import React, {
 } from 'react'
 
 import Home from './section/home'
-import About from './section/about'
+
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <About />
+      
 
     </div>
   )
